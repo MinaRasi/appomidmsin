@@ -1,0 +1,12 @@
+C:\Users\mina\OneDrive\Desktop\appomid\core\bin\Debug\net6.0\core.deps.json
+C:\Users\mina\OneDrive\Desktop\appomid\core\bin\Debug\net6.0\core.dll
+C:\Users\mina\OneDrive\Desktop\appomid\core\bin\Debug\net6.0\core.pdb
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.csproj.AssemblyReference.cache
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.AssemblyInfoInputs.cache
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.AssemblyInfo.cs
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.csproj.CoreCompileInputs.cache
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.dll
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\refint\core.dll
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\core.pdb
+C:\Users\mina\OneDrive\Desktop\appomid\core\obj\Debug\net6.0\ref\core.dll
