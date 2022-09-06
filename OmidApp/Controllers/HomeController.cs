@@ -10,5 +10,10 @@ public class HomeController : Controller
       //TODO: Implement Realistic Implementation
       return View();
     }
+    public IActionResult question()
+    {
+      //TODO: Implement Realistic Implementation
+      return View();
+    }
 
 }
