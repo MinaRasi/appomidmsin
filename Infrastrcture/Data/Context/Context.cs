@@ -5,6 +5,6 @@ public class Context:DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder db)
     {
-        db.UseSqlServer("data source=.;initial catalog = DbOmidApp;integrated security=true");
+        db.UseSqlServer("data source=.;initial catalog = DBQuestions;integrated security=true");
     }
 }
