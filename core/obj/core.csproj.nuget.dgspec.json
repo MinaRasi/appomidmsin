@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\core.csproj": {}
+    "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\core.csproj": {
+    "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\core.csproj",
+        "projectUniqueName": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\obj\\",
+        "projectPath": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\Milky_Way\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milky_Way\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
