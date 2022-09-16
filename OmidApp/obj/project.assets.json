@@ -2782,24 +2782,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Milky_Way\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\OmidApp\\OmidApp.csproj",
+      "projectUniqueName": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\OmidApp\\OmidApp.csproj",
       "projectName": "OmidApp",
-      "projectPath": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\OmidApp\\OmidApp.csproj",
-      "packagesPath": "C:\\Users\\Milky_Way\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\OmidApp\\obj\\",
+      "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\OmidApp\\OmidApp.csproj",
+      "packagesPath": "C:\\Users\\mina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\OmidApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Milky_Way\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2807,18 +2802,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\core.csproj": {
-              "projectPath": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\core\\core.csproj"
+            "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\core.csproj": {
+              "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\core\\core.csproj"
             },
-            "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\Infrastrcture\\Infrastrcture.csproj": {
-              "projectPath": "C:\\Users\\Milky_Way\\Desktop\\appomidmsin\\Infrastrcture\\Infrastrcture.csproj"
+            "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\Infrastrcture\\Infrastrcture.csproj": {
+              "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\appomid\\Infrastrcture\\Infrastrcture.csproj"
             }
           }
         }
