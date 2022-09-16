@@ -17,8 +17,8 @@ builder.Services.AddAuthentication(options =>
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             }).AddCookie(options =>
             {
-                options.LoginPath = "/Home/index";
-                options.LogoutPath = "/Home/index";
+                options.LoginPath = "/Home/home";
+                options.LogoutPath = "/Home/home";
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(43200);
             });
 
@@ -42,10 +42,13 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-
-
+app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Home}/{action=login}/{id?}");
+    
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=phone}/{action=login}/{id?}");
+
 
 app.Run();

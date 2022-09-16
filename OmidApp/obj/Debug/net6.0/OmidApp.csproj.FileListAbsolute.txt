@@ -389,3 +389,4 @@ C:\Users\mina\OneDrive\Desktop\appomid\OmidApp\obj\Debug\net6.0\refint\OmidApp.d
 C:\Users\mina\OneDrive\Desktop\appomid\OmidApp\obj\Debug\net6.0\OmidApp.pdb
 C:\Users\mina\OneDrive\Desktop\appomid\OmidApp\obj\Debug\net6.0\OmidApp.genruntimeconfig.cache
 C:\Users\mina\OneDrive\Desktop\appomid\OmidApp\obj\Debug\net6.0\ref\OmidApp.dll
+C:\Users\mina\OneDrive\Desktop\appomid\OmidApp\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
