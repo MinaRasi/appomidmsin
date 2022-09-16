@@ -1,4 +1,7 @@
 public interface IUser
 {
-   bool AddUser(VmUser user); 
+   bool EditUserProfile(VmUser user); 
+   VmUser ShowUser(int id);
+   List<VmUser> ShowUserRate(int id);
+   
 }

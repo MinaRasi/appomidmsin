@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastrcture.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220906115748_iii")]
-    partial class iii
+    [Migration("20220911111829_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -73,6 +73,9 @@ namespace Infrastrcture.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Code")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -88,6 +91,9 @@ namespace Infrastrcture.Migrations
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("points")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

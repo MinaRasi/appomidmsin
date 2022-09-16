@@ -1,4 +1,5 @@
 @model VmUser
+ <form action="/user/EditProfile" method="post" enctype="multipart/form-data">
 <div class="page-content-wrapper">
       <div class="container">
         <!-- Profile Wrapper-->
@@ -6,46 +7,56 @@
           <!-- User Information-->
           <div class="card user-info-card">
             <div class="card-body p-4 d-flex align-items-center">
-              <div class="user-profile me-3"><img src="img/bg-img/9.jpg" alt="">
+              <div class="user-profile me-3">
+
+                @if (@Model.Url != null)
+                {
+                   <img src="/fileupload/@Model.Url" alt="" class="user-profile me-3">
+                }
+               else
+               {
+                <img src="/img/core-img/logo-small.png" alt="" class="user-profile me-3">
+               }
+
+
+
                 <div class="change-user-thumb">
                   <form>
-                    <input class="form-control-file" type="file">
+                    <input class="form-control-file" type="file" accept="image/*" asp-for="Urlfirst">
                     <button><i class="fa-solid fa-pen"></i></button>
                   </form>
                 </div>
               </div>
               <div class="user-info">
-                <p class="mb-0 text-dark">designing-world</p>
-                <h5 class="mb-0">سوها جانات</h5>
+                
+                <h5 class="mb-0">@Model.FirstAndLastName</h5>
               </div>
             </div>
           </div>
           <!-- User Meta Data-->
           <div class="card user-data-card">
             <div class="card-body">
-              <form action="/user/adduser" method="post">
-                <div class="mb-3">
-                  <div class="title mb-2"><i class="fa-solid fa-at"></i><span>نام کاربری</span></div>
-                  <input class="form-control" type="text" asp-for="UserName">
-                </div>
+             
+
                 <div class="mb-3">
                   <div class="title mb-2"><i class="fa-solid fa-user"></i><span>نام و نام خانوادگی</span></div>
-                  <input class="form-control" type="text" asp-for="FirstAndLastName">
+                  <input class="form-control" type="text" asp-for="FirstAndLastName"requaried>
                 </div>
                 <div class="mb-3">
                   <div class="title mb-2"><i class="fa-solid fa-phone"></i><span>تلفن</span></div>
-                  <input class="form-control" type="text" asp-for="Phone">
+                  <input  class="form-control" type="text" asp-for="Phone" readonly>
                 </div>
                 <div class="mb-3">
                   <div class="title mb-2"><i class="fa-solid fa-envelope"></i><span>آدرس ایمیل</span></div>
-                  <input class="form-control" type="email" asp-for="Email">
+                  <input class="form-control" type="email" asp-for="Email"required>
                 </div>
                 <div class="mb-3">
-                  <div class="title mb-2"><i class="fa-solid fa-location-arrow"></i><span>آدرس حمل و نقل</span></div>
-                  <input class="form-control" type="text" asp-for="Address">
+                  <div class="title mb-2"><i class="fa-solid fa-envelope"></i><span>شماره کارت </span></div>
+                  <input class="form-control" type="number" asp-for="Cart"required>
                 </div>
+
                 <button class="btn btn-success w-100" type="submit">همه اطلاعات را ذخیره کنید</button>
-              </form>
+              
             </div>
           </div>
         </div>
@@ -53,7 +64,7 @@
     </div>
 
 
-
+</form>
 
 
 

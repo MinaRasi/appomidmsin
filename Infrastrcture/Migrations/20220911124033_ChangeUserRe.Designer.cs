@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastrcture.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220906080124_htd")]
-    partial class htd
+    [Migration("20220911124033_ChangeUserRe")]
+    partial class ChangeUserRe
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,6 +22,40 @@ namespace Infrastrcture.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("MainQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Answer1")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Answer2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Answer3")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Answer4")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CorrectAnswer")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Questinon")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("QuestionNumber")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MainQuestions");
+                });
+
             modelBuilder.Entity("User", b =>
                 {
                     b.Property<int>("Id")
@@ -31,15 +65,18 @@ namespace Infrastrcture.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Cart")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Code")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstAndLastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
@@ -47,7 +84,6 @@ namespace Infrastrcture.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

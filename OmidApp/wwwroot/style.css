@@ -282,6 +282,7 @@ textarea:invalid {
   border-color: #ffaf00;
 }
 
+
 .btn-danger {
   background-color: #ea4c62;
   border-color: #ea4c62;
@@ -360,6 +361,9 @@ textarea:invalid {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border-radius: 6px;
 }
+
+
+
 .card .card-body {
   padding: 1rem;
 }
@@ -1247,7 +1251,7 @@ textarea:invalid {
   bottom: 0;
   -webkit-box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
-  background-color: #ea4c62;
+  background-color: #E6E0BB;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1304,7 +1308,7 @@ textarea:invalid {
   text-align: center;
   text-transform: capitalize;
   line-height: 1;
-  color: #ffffff;
+  color: #271170;
   z-index: 1;
 }
 .suha-footer-nav ul li a i {
@@ -1326,10 +1330,10 @@ textarea:invalid {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: #100DD1;
+  /* background: #100DD1;
   background: -o-linear-gradient(left, #100DD1, #0d5cd1);
-  background: -webkit-gradient(linear, left top, right top, from(#100DD1), to(#0d5cd1));
-  background: linear-gradient(to right, #100DD1, #0d5cd1);
+  background: -webkit-gradient(linear, left top, right top, from(#100DD1), to(#0d5cd1)); */
+  background: #E6E0BB;
   z-index: 10;
   overflow-y: auto;
   padding-top: 2rem;
@@ -4021,7 +4025,7 @@ li.suha-dropdown-menu .dropdown-trigger-btn.active i {
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
   border-color: #ebebeb;
-  height: 50px;
+  /* height: 50px; */
   padding: 0.375rem 1rem;
   font-size: 14px;
 }
